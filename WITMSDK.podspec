@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "12.0"
   spec.swift_version = ["4.0", "4.2", "5.0"]
-  spec.source = { :git => "https://github.com/Wiinvent/wiinvent-sdk-ios-release.git", :tag => "v#{spec.version.to_s}" }
+  spec.source = { :git => "https://github.com/WiiAds/wiinventtv-tammi-sdk-ios-release.git", :tag => "v#{spec.version.to_s}" }
   spec.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'ONLY_ACTIVE_ARCH' => 'NO'}
   spec.user_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'ONLY_ACTIVE_ARCH' => 'NO'}
 
